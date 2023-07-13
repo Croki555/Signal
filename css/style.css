@@ -347,6 +347,7 @@ input {
 }
 
 .splide__slide {
+    position: relative;
     max-width: 500px !important;
     display: flex;
     flex-direction: column;
@@ -357,10 +358,18 @@ input {
     box-shadow: 3px 3px 13px rgba(11, 21, 98, 0.25);
 }
 
-.slpide__container {
-    margin-left: 450px;
-    max-width: 100%;
+.splide__link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
+
+/*.slpide__container {*/
+/*    margin-left: 450px;*/
+/*    max-width: 100%;*/
+/*}*/
 
 .splide__arrows,
 .splide__pagination {
