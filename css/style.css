@@ -1,0 +1,524 @@
+/* ====== Подключение шрифтов ====== */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    src: url("../fonts/Montserrat-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Montserrat-Medium';
+    font-style: normal;
+    font-weight: 500;
+    src: url("../fonts/Montserrat-Medium.ttf");
+}
+
+@font-face {
+    font-family: 'Montserrat-SemiBold';
+    font-style: normal;
+    font-weight: 600;
+    src: url("../fonts/Montserrat-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: 'Montserrat-Bold';
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/Montserrat-Bold.ttf");
+}
+
+/* ====== end Подключение шрифтов ====== */
+
+:root {
+    --blue: #0231DA;
+    --black-blue: #1B3BAD;
+    --white-grey: #EFF2F4;
+    --white: #fff;
+    --black: #000;
+    --bg-header: #0231DA;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--black);
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    color: var(--black);
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+button {
+    border: none;
+    background: inherit;
+    outline: none;
+}
+
+input {
+    background: inherit;
+    border: none;
+    outline: none;
+}
+
+/* ====== Основыне стили ====== */
+.container {
+    padding: 0 15px;
+    margin: 0 auto;
+    /*max-width: 1660px;*/
+    max-width: 1470px;
+}
+
+.bg-gradient {
+    background: linear-gradient(90deg, #1B3BAD 0%, rgba(27, 59, 173, 0.00) 55%);
+    padding: 30px 0;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.d-inline-block {
+    display: inline-block;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.f-content-between {
+    justify-content: space-between;
+}
+
+.f-content-center {
+    justify-content: center;
+}
+
+.f-content-end {
+    justify-content: end;
+}
+
+.f-column {
+    flex-direction: column;
+}
+
+.gap-50 {
+    gap: 50px;
+}
+
+.pt-120 {
+    padding-top: 120px;
+}
+
+.pb-120 {
+    padding-bottom: 120px;
+}
+
+.pt-100 {
+    padding-top: 100px;
+}
+
+.pb-100 {
+    padding-bottom: 100px;
+}
+
+
+.search-btn {
+    display: inline-flex;
+    width: 39px;
+    height: 39px;
+}
+
+.color-white {
+    color: var(--white);
+}
+
+.color-black-blue {
+    color: var(--black-blue);
+}
+
+/* Заголовки */
+.title-1 {
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-size: 65px;
+    text-transform: uppercase;
+}
+
+.title-2 {
+    font-family: 'Montserrat-SemiBold', sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.title-3 {
+    font-family: 'Montserrat-SemiBold', sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.text {
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.s-20 {
+    font-size: 20px;
+}
+
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.mb-60 {
+    margin-bottom: 60px;
+}
+
+.mb-100 {
+    margin-bottom: 100px;
+}
+
+.mb-120 {
+    margin-bottom: 120px;
+}
+
+.btn {
+    border-radius: 40px;
+    padding: 15px 80px;
+    font-family: 'Montserrat-SemiBold', sans-serif;
+    font-size: 25px;
+    background-color: var(--black-blue);
+}
+
+/* end Заголовки */
+.img {
+    width: 100%;
+    height: 100%;
+}
+
+/* ====== end Основыне стили ====== */
+
+/* ====== Header ====== */
+
+.header {
+    background-color: var(--bg-header);
+    padding: 23px 0;
+}
+
+.header__container {
+    max-width: 1720px;
+}
+
+.header__logo {
+    height: 55px;
+}
+
+.header__list {
+    gap: 50px;
+}
+
+/* ====== end Header ====== */
+
+/* ====== Section Slider ====== */
+.section-slider {
+    height: calc(100vh - 100px);
+    background-image: url("../img/other/service-fee.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+}
+
+.slider__container {
+    width: 100%;
+}
+
+.slider__title {
+    margin-bottom: 40px;
+}
+
+.slider__description {
+    max-width: 322px;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+/* ====== end Section Slider ====== */
+
+/* ====== Section Our Possibilities ====== */
+.section-our-possibilities {
+    padding-top: 105px;
+    padding-bottom: 120px;
+}
+
+.our-offers__container {
+    max-width: 1290px;
+}
+
+.our-possibilities__item {
+    padding: 15px;
+}
+
+/* ====== end Section Our Possibilities ====== */
+
+/* ====== Section Our Offers ====== */
+.section-our-offers {
+    padding-top: 87px;
+    padding-bottom: 110px;
+    background-color: var(--black-blue);
+}
+
+.our-offers__description {
+    font-size: 25px;
+    line-height: 30px;
+}
+
+/* ====== end Section Our Offers ====== */
+
+/* ====== Section Products ====== */
+.products__form__input::placeholder {
+    color: var(--white);
+}
+
+.products__form div {
+    position: relative;
+    padding: 10px 25px;
+    border-radius: 40px;
+    width: 415px;
+    gap: 20px;
+    background-color: #9FADDC;
+}
+
+.products__form label {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.search-btn {
+    z-index: 1;
+}
+
+.products__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.products__form input {
+    font-size: 20px;
+    width: 100%;
+}
+
+.products__item {
+    padding: 70px;
+}
+
+.products__title-item {
+    text-transform: uppercase;
+}
+
+.products__img {
+    border-radius: 35px;
+    height: 400px;
+    max-width: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.splide__slide {
+    max-width: 500px !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 35px;
+    background-color: var(--white);
+    box-shadow: 3px 3px 13px rgba(11, 21, 98, 0.25);
+}
+
+.slpide__container {
+    margin-left: 450px;
+    max-width: 100%;
+}
+
+.splide__arrows,
+.splide__pagination {
+    display: none;
+}
+
+.splide__list {
+    gap: 121px;
+    padding: 20px !important;
+}
+
+.bactericidal-recirculator-rb-01-img {
+    background-image: url("../img/equipments/bactericidal-recirculator-rb-01.png");
+}
+
+.pluton-chiller-img {
+    background-image: url("../img/equipments/pluton-chiller.png");
+}
+
+.micro-pc-img {
+    background-image: url("../img/equipments/micro-pc.png");
+}
+
+.mini-pc-img {
+    background-image: url("../img/equipments/mini-pc.png");
+}
+
+.pc-img {
+    background-image: url("../img/equipments/pc.png");
+}
+
+.ip-phone-iva-img {
+    background-image: url("../img/equipments/ip-phone-iva.png");
+}
+
+/* ====== end Section Products ====== */
+
+
+/* ====== Section Partners ====== */
+.section-partners {
+    padding-bottom: 170px;
+}
+
+/* ====== end Section Partners ====== */
+
+
+/* ====== Section About Company ====== */
+.about-company__container-map {
+    margin: 0 auto;
+    max-width: 1650px;
+    padding: 0 15px;
+}
+
+/* ====== end Section About Company ====== */
+
+
+/* ====== Section News ====== */
+.section-news .bg-gradient {
+    margin-bottom: 85px;
+}
+
+.news__block {
+    position: relative;
+    height: 350px;
+    border-radius: 30px;
+}
+
+.news__info {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 20px 25px;
+    background-color: var(--blue);
+    border-bottom-left-radius: inherit;
+    border-bottom-right-radius: inherit;
+}
+
+.news__item {
+    border-radius: 40px;
+}
+
+.news__list {
+    margin-bottom: 45px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 370px));
+    gap: 160px;
+}
+
+.news__block-img {
+    border-radius: inherit;
+}
+
+.news__item-title {
+    margin-bottom: 10px;
+}
+
+.news__date {
+    font-family: 'Montserrat-SemiBold', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.news__btn {
+    padding: 15px 35px;
+}
+
+/* ====== end Section News ====== */
+
+/* ====== Footer ====== */
+.footer__top {
+    background-color: var(--white-grey);
+}
+
+.footer__container {
+    max-width: 1460px;
+}
+
+.footer__nav {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, max-content));
+    gap: 32px;
+    flex-grow: 1;
+}
+
+.footer__list {
+    gap: 15px;
+}
+
+.footer__item * {
+    font-size: 20px;
+}
+
+.footer__logos {
+    row-gap: 36px;
+}
+
+.footer__logos-rostec .title-3 {
+    font-size: 18px;
+}
+
+.footer__logos-qrcode,
+.footer__logos-signal {
+    max-width: 411px;
+}
+
+.footer__bottom {
+    padding: 25px 0;
+    background-color: var(--blue);
+    font-size: 24px;
+}
+
+
+.footer__bottom-container {
+    max-width: 1750px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+/* ====== end Footer ====== */
+
+

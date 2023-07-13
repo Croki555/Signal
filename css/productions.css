@@ -1,0 +1,33 @@
+/* Стили для страницы prodcutions.html */
+.search-block {
+    padding: 60px 0;
+}
+
+.productions__img {
+    width: 400px;
+    height: 400px;
+    flex-shrink: 0;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+.productions__description {
+    font-size: 25px;
+    color: #0B1562;
+}
+
+.productions__item {
+    padding: 30px 0;
+}
+
+.productions__item-title + div {
+    gap: 183px;
+}
+
+.productions__item .btn {
+    align-self: center;
+}
+
+.productions__item:nth-child(even) {
+    background-color: var(--white-grey);
+}
