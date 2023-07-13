@@ -69,7 +69,7 @@ button {
     outline: none;
 }
 
-input {
+input, textarea {
     background: inherit;
     border: none;
     outline: none;
